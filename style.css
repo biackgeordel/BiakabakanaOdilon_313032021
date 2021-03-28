@@ -6,6 +6,25 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*modification*/
+ @media screen and (max-width:950px){
+ 
+
+ }
+ .logo-social{
+     margin:0;
+     width:90%;
+    
+     
+ }
+ .social>a{
+     border:1px solid green;
+     width:10vw;
+     height:10vw;
+     font-size:2vw;
+
+ }
+
 
 
 a,
@@ -72,6 +91,7 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
+   
 }
 
 .bg-repeat {
@@ -286,7 +306,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size:32px;
+    
 }
 
 .navbar {
@@ -478,7 +499,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 3vw!important;
+     
 }
 
 .icon-lg {
@@ -662,6 +684,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+   
 }
 
 .hero-bloc-text-sub {
@@ -688,7 +711,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 3vh;
     font-family: "Open Sans";
 }
 
@@ -844,7 +867,8 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+      
     }
     .nav-center.navbar .nav {
         max-width: 100%

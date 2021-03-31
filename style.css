@@ -368,7 +368,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width:10vw;/*26px;* modification */
+    width:7vw;/*26px;* modification */
 }
 
 .nav-invert .navbar .nav {
@@ -705,7 +705,7 @@ p {
 }
 
 .h1 {
-    font-size:3vh;
+    font-size:3vw;
     font-family: "Open Sans";
 }
 
@@ -794,7 +794,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;/*modification color*/
 }
 
 .btn-atomic-tangerine {
@@ -915,7 +915,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+
     h2,
     h3,
     h4,
@@ -1060,4 +1060,56 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/*modification*/
+header{
+    width:100% !important;
+    height:100% !important;
+}
+nav{
+    width:100% !important;
+    height:100%!important;
+    margin: 0 !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+.navbox{
+    display: flex;
+    justify-content: space-between;
+}
+.navbox__element{
+    width:50%;
+    height:100%;
+   
+}
+.navbox__element>a>img{
+    display:block;
+    width:90%;
+    height:100%;
+    padding-top:2%;
+    
+    
+ 
+   
+}
+.navbox__element>a{
+    display:block;
+    float: left;
+    width:50%;
+    height:100%;
+    margin-left:25% !important;
+    padding:0!important;
+}
+.navbox__element>button{
+    float: right;
+    width:50%;
+    height:100%;
+    margin:0 !important;
+    padding-top:1.9vw !important;
+    padding-right: 0 !important;
+    padding-left:5vw !important;
+    padding-bottom:1vw !important;
+}
+@media (max-width:950px){
+
 }

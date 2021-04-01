@@ -12,13 +12,12 @@ body {
 
  }
  .logo-social{
-     margin:0;
-     width:90%;
+     margin:auto !important;
+     width:90% !important;
     
      
  }
  .social>a{
-     border:1px solid green;
      width:10vw;
      height:10vw;
      font-size:2vw;
@@ -63,7 +62,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+padding: 100px 50px;
 }
 
 .bloc-md {
@@ -110,7 +109,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+   background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -792,7 +791,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+ background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -1092,14 +1091,14 @@ nav{
     display:block;
     width:90%;
     height:100%;
-    padding-top:2%; 
+    padding-top:5%; 
 }
 .navbox__element>a{
     display:block;
     float: left;
     width:50%;
     height:100%;
-    margin-left:25% !important;
+    margin-left:5% !important;
     padding:0!important;
 }
 .navbox__element>button{
@@ -1128,13 +1127,27 @@ nav{
 .photo_correction>a>img{
     width:100%;
 }
-@media (max-width:950px){
+.p_contact{
+  width:90% !important;
+  margin:auto !important;
+  color:white !important;
+  text-align: center;
+  height:100%;
+}
+@media (max-width:767px){
     .navbox__element>a>img{
         object-fit: cover;
-        width:35vw;
-        margin-left:-3vw !important;
+        width:50vw;
+        height:10vw;
+        margin-left:-5vw !important;
         
       
+    }
+    .navbox__element>a{
+        margin-left:15% !important;  
+    }
+    .navbox__element>button{
+        padding-top:4vw !important;
     }
 
 }

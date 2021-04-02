@@ -83,9 +83,6 @@ padding: 100px 50px;
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
     background-size: auto!important;
    
 }
@@ -729,12 +726,11 @@ p {
 }
 
 h2 {
-    font-size:2vw;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size:2vw;
+    font-size:17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -745,6 +741,7 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
+
 
 h1 {
     color: #333333!important;
@@ -1134,20 +1131,42 @@ nav{
   text-align: center;
   height:100%;
 }
+@media (max-width:767px){/*odilon*/
+    h1{
+        font-size:4vw !important;
+    
+    }
+    h2,h3,a{
+        font-size:3.8vw !important;
+    }
+    p{
+        font-size:3.8vw !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        width:100% !important;
+        margin:auto !important;
+        text-align: justify !important;
+    }
+   
+}
 @media (max-width:767px){
     .navbox__element>a>img{
         object-fit: cover;
-        width:50vw;
-        height:10vw;
-        margin-left:-5vw !important;
-        
-      
+       
+     
+    }
+    .container{
+        margin-top:0 !important;
     }
     .navbox__element>a{
-        margin-left:15% !important;  
+        margin-left:5% !important; 
+        width:60vw;
+        height:10vw; 
+        
     }
     .navbox__element>button{
-        padding-top:4vw !important;
+        padding-top:5vw !important;
+        padding-left:25% !important;
     }
 
 }

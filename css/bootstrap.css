@@ -71,7 +71,7 @@ dfn {
 }
 
 h1 {
-    font-size: 2.5vw;
+    font-size: 30px !important;
     width:100%;
     word-wrap: break-word;
     margin-top:3%;
@@ -80,7 +80,7 @@ h1 {
     height:100%;
 }
 p{
-    font-size:1.5vw !important;
+    font-size:15px !important;
     text-align:right;
     width:100%;
     height:100%;
@@ -88,19 +88,7 @@ p{
     margin: auto;
 }
 
-@media (max-width:767px){/*odilon*/
-    h1{
-        font-size:4.5vw !important;
-    
-    }
-    h2,h3{
-        font-size:3.8vw !important;
-    }
-    p,a{
-        font-size:3vw !important;
-    }
-   
-}
+
 
 
 mark {
@@ -287,13 +275,13 @@ th {
     }
     img {
         max-width: 100% !important;
-    }/*
+    }
     h2,
     h3,
     p {
         orphans: 3;
         widows: 3;
-    }*/
+    }
     h2,
     h3 {
         page-break-after: avoid;
@@ -1610,13 +1598,13 @@ h6 small {
 
 .h2,
 h2 {
-    font-size: 1.5vw;
+    font-size:20px;
     word-wrap: break-word;
     width:100%;
     height:100%;
 }
 
-.h3
+.h3,h3
  {
     font-size: 24px;
 }

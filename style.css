@@ -491,7 +491,7 @@ button {
 }
 
 .icon-lg {
-    font-size: 9vw!important;
+    font-size: 4vw!important;
 }
 @media (max-width:750px){
     .icon-lg {
@@ -1058,6 +1058,7 @@ h4 {
         text-align: center;
     }
 }
+
 /*modification*/
 header{
     width:100% !important;
@@ -1115,6 +1116,9 @@ nav{
     width:100% !important;
     height:100% !important;
     text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+    color:black !important;
 }
 .photo_correction>a>img{
     width:100%;
@@ -1126,6 +1130,15 @@ nav{
   text-align: center;
   height:100%;
 }
+.box_adresse{
+    display: flex !important;
+    justify-content:center !important;
+    align-items:flex-start !important;
+    flex-direction: column !important;
+    padding-left: 20%;
+    
+}
+
 @media (max-width:767px){/*odilon*/
     h1{
         font-size:4vw !important;
@@ -1135,23 +1148,23 @@ nav{
     
     }
     h2,h3,a{
-        font-size:3.5vw !important;
+        font-size:3.8vw !important;
     }
     p{
-        font-size:3.4vw !important;
+        font-size:3.8vw !important;
         white-space: normal !important;
         word-wrap: break-word !important;
         width:100% !important;
         padding-left:3% !important;
         padding-right:3% !important;
-        text-align: justify !important;
+        text-align:center !important;
     }
     .btn-block,label{
         font-size:3.5vw !important;
     }
     input{
       
-        font-size:3.5vw !important;
+        font-size:3.7vw !important;
         margin: auto !important;
         height:10vw !important;
     }
@@ -1191,10 +1204,48 @@ nav{
     .modification{
         padding:0;
         width:100% !important;
+    }
+        .icon-md{
+            font-size:8vw !important;/*modification de la taille des icones des reseaux sociaux*/
+        }
+        .box_adresse{
+            padding-left:3%;
+        }
+        .box_adresse>section{
+            display: flex;
+            justify-content:left;
+            align-items: center;
+            width:100% !important;
+            height:15vw !important;
+            margin-top:0 !important;
+           
+           
+
+         
+           
+         }
+         .box_adresse>section>h2{
+            width:100%;
+            font-weight: 600 !important;
+            height:100%;
+            color:rgb(39, 22, 15) !important;
+           
+        }
+         .box_adresse>section>p{
+         
+            text-align: center !important;
+            margin-left:-8% !important;
+            padding-top:3% !important;
+            height:100%;
+           
+        }
+        
+      
+       
+      
        
     }
   
    
  
  
-}

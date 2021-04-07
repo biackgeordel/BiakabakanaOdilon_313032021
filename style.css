@@ -696,7 +696,7 @@ a {
 }
 
 p {
-    font-size: 15px !important;
+    font-size: 13px !important;
 }
 
 .tight-width-whitespace {
@@ -772,7 +772,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(32, 31, 26, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -794,7 +794,7 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;/*modification color*/
+    color:white!important;/*modification color*/
 }
 
 .btn-atomic-tangerine {
@@ -1029,7 +1029,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 5%;
     }
     .close-lightbox {
         display: inline-block;
@@ -1116,9 +1116,8 @@ nav{
     width:100% !important;
     height:100% !important;
     text-align:center;
-    text-transform:uppercase;
     font-weight: bold;
-    color:black !important;
+    color:white !important;
 }
 .photo_correction>a>img{
     width:100%;
@@ -1133,11 +1132,14 @@ nav{
 .box_adresse{
     display: flex !important;
     justify-content:center !important;
-    align-items:flex-start !important;
+    align-items: flex-start !important;
     flex-direction: column !important;
-    padding-left: 20%;
+    padding-left:10%;
+
     
 }
+
+
 
 @media (max-width:767px){/*odilon*/
     h1{
@@ -1208,37 +1210,33 @@ nav{
         .icon-md{
             font-size:8vw !important;/*modification de la taille des icones des reseaux sociaux*/
         }
-        .box_adresse{
-            padding-left:3%;
-        }
-        .box_adresse>section{
-            display: flex;
-            justify-content:left;
-            align-items: center;
-            width:100% !important;
-            height:15vw !important;
-            margin-top:0 !important;
-           
-           
+       .text-box>p{
+           display:block !important;
+           width:60vw !important;
+           text-align: left !important;
+           white-space: nowrap  !important;
+           padding-top:2%;
+       }
+       .position{
+        
+           padding-right:10% !important;
+       }
+       .box_adresse>section>h2{
+           margin-top:0;
+       }
+       .box_adresse>section{
+           height:10vw!important;
+            margin-top:2%;
+           display: flex;
+       }
+       .box_adresse{
+        align-items:center !important;
+       }
+       
+        
+         
 
-         
-           
-         }
-         .box_adresse>section>h2{
-            width:100%;
-            font-weight: 600 !important;
-            height:100%;
-            color:rgb(39, 22, 15) !important;
-           
-        }
-         .box_adresse>section>p{
-         
-            text-align: center !important;
-            margin-left:-8% !important;
-            padding-top:3% !important;
-            height:100%;
-           
-        }
+       
         
       
        

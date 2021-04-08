@@ -1154,8 +1154,15 @@ nav{
     position:relative;
     left:45%;
   
-  
-
+}
+.tc-bold{
+    font-weight: bold;
+}
+.tc-black{
+    color:black !important;
+}
+.backfond{
+    background:cadetblue;
 }
 
 

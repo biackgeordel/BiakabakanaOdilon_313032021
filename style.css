@@ -29,7 +29,6 @@ button {
 a:hover,a:focus,a:link {/*odilon*/
     text-decoration: none;
     cursor: pointer;
-    color:coral !important;
 }
 
 #page-loading-blocs-notifaction {
@@ -1259,7 +1258,7 @@ nav{
        }
        
         .text-span, .text-footer{
-            font-size:3vw !important;
+            font-size:3.5vw !important;
            margin:auto !important;
          
         }

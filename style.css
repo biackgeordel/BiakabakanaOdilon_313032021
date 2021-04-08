@@ -26,9 +26,10 @@ button {
     outline: none!important;
 }
 
-a:hover {
+a:hover,a:focus,a:link {/*odilon*/
     text-decoration: none;
     cursor: pointer;
+    color:coral !important;
 }
 
 #page-loading-blocs-notifaction {
@@ -48,11 +49,6 @@ a:hover {
     padding: 0 50px;
     background-size: cover;
     position: relative;
-}
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .bloc-lg {
@@ -718,10 +714,7 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
+
 
 h2 {
     line-height: 1.4em;
@@ -798,12 +791,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #1f1612;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #09014e!important;
     color: #FFFFFF!important;
 }
 
@@ -869,13 +862,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -894,8 +887,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left:0;
+        padding-right:0;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -905,8 +898,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+       
     }
 }
 
@@ -1071,6 +1063,7 @@ nav{
     margin-top: 2% !important;
     margin-bottom: 2% !important;
 }
+
 .navbox{
     display: flex;
     justify-content: space-between;
@@ -1138,6 +1131,33 @@ nav{
 
     
 }
+.citation_per{
+    font-weight:bold;
+    color:black !important;
+}
+.text-footer{
+    color:black !important;
+    font-weight: bold;
+    width:100% !important;
+    margin: auto !important;
+    text-align: center !important;
+    padding:2% !important;
+}
+.text-span{
+    color:black;
+ 
+}
+.image_footer{
+    display: block;
+    width:10%;
+    height:10%;
+    object-fit: cover;
+    position:relative;
+    left:45%;
+  
+  
+
+}
 
 
 
@@ -1182,6 +1202,7 @@ nav{
         padding:2% !important;
         margin-left:30%;
     }
+ 
    
 }
 @media (max-width:767px){
@@ -1232,8 +1253,19 @@ nav{
        .box_adresse{
         align-items:center !important;
        }
+       .citation{
+           text-align:center;
+           font-size:3.5vw;
+       }
        
-        
+        .text-span, .text-footer{
+            font-size:3vw !important;
+           margin:auto !important;
+         
+        }
+      
+            
+       
          
 
        

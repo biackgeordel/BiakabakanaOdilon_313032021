@@ -7,29 +7,25 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
- .logo-social{
-     margin:auto !important;
-     width:90% !important;    
- }
- .social>a{
-     width:10vw;
-     height:10vw;
-     font-size:2vw;
-
- }
-
-
-
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
 
-a:hover,a:focus,a:link {/*odilon*/
-    text-decoration: none;
+
+li>a:hover{/*odilon*/
+    text-decoration:none;
+    font-weight: bold;
+    background-color:rgba(9, 248, 248, 0.8) !important;
     cursor: pointer;
 }
+
+a:link{
+    color:orange;
+}
+
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -1162,24 +1158,24 @@ nav{
     color:black !important;
 }
 .backfond{
-    background:cadetblue;
+    background:#B6D2D2;/*cadetblue;*/
 }
 
 
 
 @media (max-width:767px){/*odilon*/
     h1{
-        font-size:4vw !important;
+        font-size:4.5vw !important;
         width:90% !important;
         margin:auto !important;
         text-align: center;
     
     }
     h2,h3,a{
-        font-size:3.8vw !important;
+        font-size:4vw !important;
     }
     p{
-        font-size:3.8vw !important;
+        font-size:3.5vw !important;
         white-space: normal !important;
         word-wrap: break-word !important;
         width:100% !important;
@@ -1192,7 +1188,7 @@ nav{
     }
     input{
       
-        font-size:3.7vw !important;
+        font-size:3.5vw !important;
         margin: auto !important;
         height:10vw !important;
     }

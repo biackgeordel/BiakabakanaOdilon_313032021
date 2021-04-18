@@ -1243,9 +1243,7 @@ nav{
         padding:0;
         width:100% !important;
     }
-        .icon-md{
-            font-size:8vw !important;/*modification de la taille des icones des reseaux sociaux*/
-        }
+       
        .text-box>p{
            display:block !important;
            width:60vw !important;

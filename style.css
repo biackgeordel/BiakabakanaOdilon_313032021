@@ -9,9 +9,20 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
     outline: none!important;
 }
+li>a:link{
+    text-decoration: none;
+  
+}
+
+.active:defined{
+    font-weight:bold;
+   
+
+}
+
 
 
 li>a:hover{/*odilon*/
@@ -21,9 +32,7 @@ li>a:hover{/*odilon*/
     cursor: pointer;
 }
 
-a:link{
-    color:orange;
-}
+
 
 
 
@@ -1074,6 +1083,10 @@ nav{
     height:100%;
     padding-top:2%; 
 }
+.active:active{
+    color:#F3976C !important;
+}
+
 .navbox__element>a{
     display:block;
     float: left;
@@ -1155,10 +1168,10 @@ nav{
     font-weight: bold;
 }
 .tc-black{
-    color:black !important;
+    color:#f5f5f5 !important;
 }
 .backfond{
-    background:#B6D2D2;/*cadetblue;*/
+    background:#a94242eb;/*cadetblue;*/
 }
 
 

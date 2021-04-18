@@ -1276,6 +1276,17 @@ nav{
            margin:auto !important;
          
         }
+        .scrollToTop{
+            width:10vw;
+            height:10vw;
+            bottom:0;
+        }
+        .scrollToTop>span {
+            margin-top:5%;
+          
+           
+        }
+       
       
             
        

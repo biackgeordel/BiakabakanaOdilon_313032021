@@ -1171,12 +1171,12 @@ nav{
     color:#f5f5f5 !important;
 }
 .backfond{
-    background:#a94242eb;/*cadetblue;*/
+    background:#a94242eb;
 }
 
 
 
-@media (max-width:767px){/*odilon*/
+@media (max-width:767px){/*modification pour rendre le site responsive*/
     h1{
         font-size:4.5vw !important;
         width:90% !important;
